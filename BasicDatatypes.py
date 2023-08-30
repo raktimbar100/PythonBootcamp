@@ -13,3 +13,8 @@ print("Your height is "+str(height))
 answer =False
 print(type(answer))
 print("Your answer is "+str(answer))
+#Multiple assignments=It is used to declare more than one variable with their values in a single line.
+id,fullname,percentage=1,"Mohit",88.43
+print(id)
+print(fullname)
+print(percentage)
