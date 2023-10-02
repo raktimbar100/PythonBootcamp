@@ -1,0 +1,18 @@
+why print function is very powerful in python?
+=>
+
+print("Hello") #It will print Hello
+print("Hi")
+#Here if you notice the output console the result will look like
+#Hello
+#Hi
+but why not Hello Hi?->Basically after every print statement in python at the end there is a new line,to prevent this one then you have to use
+print("Hello",end=' ')
+print("Hi")
+#it will show us "Hello Hi".
+#Question: print India/Australia/England/Newzeland in a single line input is only the country names.
+print("India","Australia","England","Newzeland",sep='/') #output:India/Australia/England/Newzeland
+print(6)
+print(7.88)
+print(False)
+print("Raktim",70,True)
